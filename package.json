@@ -1,0 +1,17 @@
+{
+  "name": "storiesig-viewer",
+  "version": "1.0.0",
+  "description": "StoriesIG - Anonymous Instagram Viewer (Stories, Highlights, Posts)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "https-proxy-agent": "^7.0.4",
+    "serverless-http": "^3.2.0"
+  }
+}
